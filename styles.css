@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+nav ul{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 20px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav .logo{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+  
+}
+
+.container{
+    width: 99vw;
+    height: 100vh;
+    background-image: url(image/IMG-5203.JPG);
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+.sls {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: white;
+
+}
+.sls p{
+    font-family: 'Rajdhani', sans-serif;}
+.sls h1{
+    font-size: 64px;
+    font-weight: 600;
+    font-family: 'M PLUS 1 Code', sans-serif;
+}
+.sls button{
+    background: black;
+    border: 2px  solid rgb(255, 255, 255);
+    outline: none;
+    padding: 12px 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.launch-time{
+    display: flex;
+}
+.launch-time div{
+   flex-basis: 100px;
+}
+.launch-time div p{
+    font-size: 30px;
+    margin-bottom: -2px;
+    font-family: 'Rajdhani', sans-serif;
+}
+#aboutmission{
+    background-color: black;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+
+.about-text{
+    width: 550px;
+color: white;
+}
+.about{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about img{
+    width: 400px;
+    margin-right: 70px;
+}
+#missions{
+    background-color: gainsboro;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;  
+}
+#h{
+color: black;
+font-size: 50px;
+margin-top: 50px;
+
+}
+
+#art1{
+    width: 300px;
+    margin-right: 900px;
+}
+#art2{
+    width: 290px;
+    margin-right: 10px;
+    margin-top: -280px;
+
+}
+#art3{
+    width: 290px;
+    margin-left: 900px;
+    margin-top: -280px;
+
+}
+#art4{
+    width: 300px;
+    margin-right: 900px;
+}
+#art5{
+    width: 300px;
+    margin-right: 10px;
+margin-top: -55px;
+}
+#art6{
+    width: 300px;
+    margin-left: 900px;
+    margin-top: -55px;
+
+}
+
+.main{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(240, 240, 240);
+    
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: #fff;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 100px;
+    font-family: sans-serif;
+    overflow: hidden;
+    box-shadow: 5px 10px 20px rgba(150, 150, 150, .3);
+    transition: all .3s ease-out;
+}
+a{
+    text-decoration: none;
+}
+
+.icon:hover{
+    width: 400px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+}
+.icon:hover i{
+    color: #fff;
+}
+
+.fa-envelope{
+    color: orange;
+}
+.em:hover{
+    background: orange;
+}
+
+.fa-twitter{
+    color: #1DA1F2 ;
+}
+.twt:hover{
+    background: #1DA1F2;
+}
+
+.fa-instagram{
+ color: #FF005E;   
+}
+.insta:hover{
+    background: #FF005E;
+}
+
+.fa-youtube{
+    color: #FE0000;
+}
+.yt:hover{
+    background: #FE0000;
+}
+.main span{
+    color: white;
+}
